@@ -1,0 +1,70 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+*/
+
+// Vivid syntax theme brightness, contrast and saturation
+atom-text-editor .line > .syntax--source {
+  -webkit-filter: saturate(100%) brightness(100%) contrast(100%);
+}
+
+atom-text-editor div.custom-decorations {
+  background: transparent;
+}
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  .gutter .pigments-gutter-marker div span,
+  .gutter .pigments-gutter-marker-in-selection div span  {
+    border-radius: 50%;
+  }
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+
+
+  .custom-decorations {
+    background: #999;
+  }
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor .cursor {
+  // border-color: red;
+}
+
+atom-text-editor.editor .gutter .line-number, :host .gutter .line-number {
+
+}
+
+atom-text-editor.editor .gutter {
+  .line-number {
+    color: #999;
+  }
+
+  & .pigments-gutter-marker div span,
+  & .pigments-gutter-marker-in-selection div span {
+    border-radius: 50%;
+  }
+
+  > .line-numbers:first-child {
+    border-right: 1px solid #999;
+  }
+}
+
+
+@hints-color: #c5c8c6;
+@hints-opacity: 0.3;
+
+.editor {
+  .invisible-character {
+    color: @hints-color;
+    opacity: @hints-opacity;
+  }
+}

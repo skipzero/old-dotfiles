@@ -1,0 +1,126 @@
+"*":
+  "apathy-theme":
+    altStyle: "Color Pop"
+    enableTreeViewBorder: true
+    enableTreeViewStyles: true
+    syntaxSaturation: "100%"
+  "atom-beautify":
+    general:
+      _analyticsUserId: "e32f46a2-8ca7-4525-95a8-2e708ee121b6"
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+    use:
+      "atom-ide-diagnostics-ui": false
+  "atom-package-deps":
+    ignored: []
+  core:
+    disabledPackages: [
+      "linter-htmlhint"
+      "linter"
+    ]
+    packagesWithKeymapsDisabled: [
+      "bracket-matcher"
+    ]
+    projectHome: "~/Javascript/"
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "vivid"
+    ]
+    titleBar: "custom"
+    warnOnLargeFileLimit: 20
+  editor:
+    fontFamily: "roboto"
+    fontSize: 13
+    preferredLineLength: 110
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
+    tabType: "soft"
+  "exception-reporting":
+    userId: "d873cdc7-0de5-eea2-1f08-adba7b06e17c"
+  "file-types":
+    $debug: true
+    js: "source.js"
+    jsx: "source.js.jsx"
+  linter:
+    lintOnChangeInterval: 1000
+    lintPreviewTabs: false
+  "linter-eslint":
+    advancedLocalNodeModules: "~/tout/tesla/js/"
+    disableEslintIgnore: true
+    disableFSCache: true
+    disableWhenNoEslintConfig: false
+    eslintRulesDirs: [
+      "~/"
+      "~/tout/tesla/js"
+    ]
+    globalNodePath: "/Users/Rapture/.nvm/versions/node/(node -v) "
+    ignoreFixableRulesWhileTyping: true
+    lintHtmlFiles: true
+    rulesToSilenceWhileTyping: [
+      "no-trailing-spaces"
+    ]
+  "linter-htmlhint":
+    enabledScopes: [
+      "text.html.angular"
+      "text.html.basic"
+      "text.html.gohtml"
+      "text.html.jsp"
+      "text.html.mustache"
+      "text.html.js"
+    ]
+  "linter-json-lint":
+    allowComments: true
+  "linter-sass-lint":
+    configFile: "./.sass-lint.yml"
+    globalNodePath: "/Users/Rapture/.nvm/versions/node/(node -v)/"
+  "linter-ui-default":
+    gutterPosition: "Left"
+    panelHeight: 106
+    statusBarPosition: "Right"
+    tooltipFollows: "Keyboard"
+  "markdown-preview-plus":
+    breakOnSingleNewline: true
+    useGitHubStyle: true
+  mcduino:
+    arduinoPath: "/Applications/Arduino.app"
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  pigments:
+    extendAutocompleteToVariables: true
+    markerType: "gutter"
+    mergeColorDuplicates: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      showInStatusBar: true
+    prettierEslintOptions:
+      prettierLast: true
+    prettierOptions:
+      singleQuote: true
+    useEslint: true
+  "seti-syntax":
+    themeColor: "Steel"
+  "seti-ui":
+    compactView: true
+    displayIgnored: false
+    hideProjectTab: true
+    themeColor: "Steel"
+  "sync-settings":
+    _lastBackupHash: "6fbf260d782e2ac4f07d611d1cc748f5e956635a"
+    gistDescription: "Backup for Atom dotfiles..."
+    gistId: "9bbb7ee43e1b76cf190122132e53e06a"
+    personalAccessToken: "72345ab6b8e31f291b135abf100e79997fbb65fb"
+  "tree-view":
+    alwaysOpenExisting: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".js.jsx.react.source":
+  editor:
+    showIndentGuide: true
